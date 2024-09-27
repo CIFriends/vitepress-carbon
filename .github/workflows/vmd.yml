@@ -27,7 +27,7 @@ jobs:
           node-version: '20'
 
       - name: Vue Mess Detector Analysis
-        uses: brenoepics/vmd-action@add-delete-comments
+        uses: brenoepics/vmd-action@add-delete-old-comments
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deleteOldComments: true
