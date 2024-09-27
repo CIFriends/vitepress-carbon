@@ -30,4 +30,5 @@ jobs:
         uses: brenoepics/vmd-action@add-delete-comments
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          deleteOldComments: true
       
