@@ -1,4 +1,4 @@
-name: Vue Analysis
+name: Vue Analysis 0
 
 on:
   workflow_dispatch:
@@ -28,4 +28,6 @@ jobs:
 
       - name: Vue Mess Detector Analysis
         uses: brenoepics/vmd-action@add-compare-feature
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       
