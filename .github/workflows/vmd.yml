@@ -1,4 +1,4 @@
-name: Vue Analysiss
+name: Vue Analysis
 
 on:
   workflow_dispatch:
