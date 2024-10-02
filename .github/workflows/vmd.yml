@@ -27,7 +27,5 @@ jobs:
           node-version: '20'
 
       - name: Vue Mess Detector Analysis
-        uses: brenoepics/vmd-action@main
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+        uses: brenoepics/vmd-action@brenoepics-patch-1
       
