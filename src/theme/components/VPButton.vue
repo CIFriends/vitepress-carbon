@@ -30,6 +30,7 @@ const component = computed(() => {
   <component
     :is="component"
     class="VPButton"
+    1111
     :class="[size, theme]"
     :href="href ? normalizeLink(href) : undefined"
     :target="props.target ?? (isExternal ? '_blank' : undefined)"
