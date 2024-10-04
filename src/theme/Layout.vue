@@ -10,7 +10,6 @@ import VPSidebar from './components/VPSidebar.vue'
 import VPSkipLink from './components/VPSkipLink.vue'
 import { useData } from './composables/data'
 import { useCloseSidebarOnEscape, useSidebar } from './composables/sidebar'
-
   
 const {
   isOpen: isSidebarOpen,
