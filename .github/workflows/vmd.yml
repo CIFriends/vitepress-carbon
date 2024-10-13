@@ -1,4 +1,4 @@
-name: Vue Analysis
+name: Vue Analysis 
 
 on:
   workflow_dispatch:
@@ -21,11 +21,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - uses: pnpm/action-setup@v4
+        name: Instal pnpm
+        with:
+          version: 'latest' # delete this line if you have packageManager defined in package.json
+
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
 
       - name: Vue Mess Detector Analysis
         uses: brenoepics/vmd-action@main
-      
+        with:
+          packageManager: 'pnpm'
