@@ -27,5 +27,5 @@ jobs:
           node-version: '20'
 
       - name: Vue Mess Detector Analysis
-        uses: brenoepics/vmd-action@add-compare-feature
+        uses: brenoepics/vmd-action@0.0.7
       
