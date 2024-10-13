@@ -1,4 +1,4 @@
-name: VMD Analysis
+name: VMD Analysis 
 
 on:
   workflow_dispatch:
