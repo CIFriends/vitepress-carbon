@@ -1,4 +1,4 @@
-name: VMD Analysis 
+name: Vue Analysis 
 
 on:
   workflow_dispatch:
