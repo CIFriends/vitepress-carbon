@@ -32,6 +32,6 @@ jobs:
           node-version: 20
 
       - name: Vue Mess Detector Analysis
-        uses: brenoepics/vmd-action@v0.0.7
+        uses: brenoepics/vmd-action@main
         with:
           packageManager: 'pnpm'
